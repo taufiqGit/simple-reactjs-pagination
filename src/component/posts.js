@@ -1,7 +1,7 @@
 
 const Posts = ({posts, loading})=>{
 	if (loading) {
-		return <p>Loading....</p>
+		return <p>Loading...</p>
 	}
 
 	return <ul className="mb-5 list-group">

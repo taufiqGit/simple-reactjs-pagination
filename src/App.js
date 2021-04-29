@@ -1,6 +1,6 @@
 
 import {useState, useEffect} from 'react';
-import axios from 'axios';
+import axios from 'axios'
 import Posts from './component/posts.js'
 import Pagination from './component/pagination.js'
 

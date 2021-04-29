@@ -12,7 +12,7 @@
 		  <ul className="pagination">
 		   {
 		   	pageNumbers.map(link => (
-				<li key={link} className="page-item"><a onClick={() => handlePage(link)} className="page-link" href="#">{link}</a></li>
+				<li key={link} className="page-item"><button onClick={() => handlePage(link)} className="page-link">{link}</button></li>
 		   	  ))
 		   }
 		    
